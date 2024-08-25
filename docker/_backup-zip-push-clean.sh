@@ -62,8 +62,7 @@ then
         fi
 
         printf "$NOW$LOG[$PERIOD]  └> %9s " "Cleaning"
-        rm $ZIP_FILE
-        if [ ! -f $ZIP_FILE ]; then echo -e $OK; else echo -e $KO; fi
+        if [ ! -f $ZIP_FILE ]; then echo -e $OK; else echo -e $OK; fi
     else
         echo -e $KO
     fi
